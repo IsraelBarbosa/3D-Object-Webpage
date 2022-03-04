@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap");
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  @media screen and (max-width: 1150px) {
+    flex-direction: column;
+  }
+}
+
+.hero-container-titulo {
+  width: 41%;
+
+  @media screen and (max-width: 1150px) {
+    width: 100%;
+    margin-bottom: 300px;
+  }
+
+  @media screen and (max-width: 450px) {
+    width: 100%;
+    margin-bottom: 200px;
+  }
+}
+
+.hero__titulo {
+  font-family: "Sarala", sans-serif;
+  font-size: 115px;
+  font-weight: bold;
+
+  @media screen and (max-width: 1460px) {
+    font-size: 105px;
+  }
+
+  @media screen and (max-width: 1350px) {
+    font-size: 90px;
+  }
+
+  @media screen and (max-width: 500px) {
+    font-size: 70px;
+  }
+
+  @media screen and (max-width: 380px) {
+    line-height: 100px;
+  }
+}
+
+.hero-titulo-container-f {
+  position: relative;
+}
+
+.hero__titulo__img-f {
+  position: absolute;
+  top: -2px;
+  left: -15%;
+
+  @media screen and (max-width: 1460px) {
+    top: -8px;
+    left: -30%;
+  }
+
+  @media screen and (max-width: 1350px) {
+    top: -12px;
+    left: -40%;
+  }
+
+  @media screen and (max-width: 500px) {
+    top: -20px;
+    left: -80%;
+  }
+
+  @media screen and (max-width: 377px) {
+    top: 77px;
+    left: -200px;
+  }
+}
+
+.hero__sub-titulo {
+  padding-bottom: 20px;
+  border-bottom: 5px solid #000;
+  margin-bottom: 20px;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 70px;
+  font-weight: 400;
+
+  @media screen and (max-width: 1350px) {
+    font-size: 50px;
+  }
+
+  @media screen and (max-width: 500px) {
+    border-bottom: 3px solid #000;
+
+    font-size: 40px;
+  }
+}
+
+.hero__paragrafo {
+  margin-bottom: 50px;
+
+  color: #96959e;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.hero-container-link-e-detalhes {
+  position: relative;
+
+  display: flex;
+}
+
+.hero__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  padding: 15px 30px;
+  border-bottom: 1px solid #f2aeb2;
+  border-radius: 50px;
+  box-shadow: 0px 7px 0px 0px #3e2bb7, 0px 14px 20px 0px #0000003b;
+
+  color: #fff;
+  background-image: linear-gradient(137deg, #ffbccc, #3e2bb7 60%);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+
+  transform: rotateX(15deg);
+
+  @media screen and (max-width: 500px) {
+    width: 200px;
+    font-size: 18px;
+  }
+}
+
+.hero-link-container-arrow-pontilhado-e-circle {
+  position: absolute;
+  top: 50%;
+  left: -10%;
+  z-index: -1;
+
+  @media screen and (max-width: 1350px) {
+    left: -12%;
+  }
+
+  @media screen and (max-width: 1150px) {
+    left: -3%;
+  }
+
+  @media screen and (max-width: 600px) {
+    left: -8%;
+  }
+
+  @media screen and (max-width: 530px) {
+    left: -5%;
+  }
+
+  @media screen and (max-width: 450px) {
+    left: 10%;
+  }
+}
+
+.hero__link__arrow-pontilhado {
+  @media screen and (max-width: 1350px) {
+    width: 450px;
+  }
+
+  @media screen and (max-width: 530px) {
+    width: 400px;
+  }
+
+  @media screen and (max-width: 450px) {
+    width: 250px;
+  }
+}
+
+.hero__link__circle {
+  position: absolute;
+  bottom: -40px;
+  left: -50px;
+
+  width: 148px;
+  height: 148px;
+  border-radius: 50%;
+
+  background-image: linear-gradient(153deg, #ffcf8777, #ff68b17a);
+  backdrop-filter: blur(4px);
+
+  @media screen and (max-width: 530px) {
+    bottom: -30px;
+    left: -40px;
+
+    width: 100px;
+    height: 100px;
+  }
+
+  @media screen and (max-width: 450px) {
+    left: -80px;
+  }
+}
+
+.hero-container-img {
+  display: flex;
+  justify-content: flex-end;
+  width: 54%;
+
+  @media screen and (max-width: 1150px) {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+.hero-container-todas-img {
+  position: relative;
+}
+
+.hero__todas-img {
+  padding: 10px;
+  border: 1px solid #7e8af3;
+  border-radius: 50px;
+  box-shadow: 0px 20px 30px 0px #7e8af33b;
+
+  background-color: rgba(255, 255, 255, 0.404);
+  backdrop-filter: blur(3px);
+
+  @media screen and (max-width: 500px) {
+    border-radius: 20px;
+  }
+}
+
+.hero__todas-img__3d-shapes {
+  max-width: 100%;
+}
+
+.hero-container-img-circles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  width: 100%;
+  height: 100%;
+}
+
+.circles__circle {
+  position: absolute;
+
+  &:nth-child(1) {
+    top: -60px;
+    left: -60px;
+
+    width: 136px;
+    height: 136px;
+    border-radius: 50%;
+
+    background-image: linear-gradient(153deg, #ffcf87, #ff68b1);
+    backdrop-filter: blur(54px);
+
+    @media screen and (max-width: 500px) {
+      top: -40px;
+      left: -40px;
+
+      width: 106px;
+      height: 106px;
+    }
+  }
+
+  &:nth-child(2) {
+    bottom: -30px;
+    left: 30%;
+
+    width: 76px;
+    height: 76px;
+    border: 1px solid #288d80b0;
+    border-radius: 50%;
+
+    background-image: linear-gradient(
+      162.31deg,
+      rgba(187, 250, 150, 0.325) 2.52%,
+      rgba(62, 166, 146, 0.5) 63.84%
+    );
+    backdrop-filter: blur(54px);
+
+    @media screen and (max-width: 500px) {
+      bottom: -20px;
+
+      width: 56px;
+      height: 56px;
+    }
+  }
+
+  &:nth-child(3) {
+    bottom: 100px;
+    right: -52px;
+
+    width: 123px;
+    height: 123px;
+    border: 1px solid rgba(255, 183, 117, 0.956667);
+    border-radius: 50%;
+
+    background-image: radial-gradient(
+      63.4% 63.4% at 19.14% 23.21%,
+      rgba(255, 165, 158, 0.217) 0%,
+      rgba(125, 138, 243, 0.7) 100%
+    );
+    backdrop-filter: blur(54px);
+
+    @media screen and (max-width: 500px) {
+      bottom: 80px;
+      right: -42px;
+
+      width: 90px;
+      height: 90px;
+    }
+  }
+}
+
+.circles__circle:nth-child(3) + .circles__border {
+  display: flex;
+
+  position: absolute;
+  top: -35px;
+  right: -35px;
+
+  @media screen and (max-width: 500px) {
+    top: -20px;
+    right: -20px;
+
+    .circles__border__img {
+      width: 60px;
+    }
+  }
+}
+
+.circles__circle:nth-child(3) + .circles__border + .circles__border {
+  display: flex;
+
+  position: absolute;
+  bottom: -35px;
+  left: -35px;
+
+  @media screen and (max-width: 500px) {
+    bottom: -30px;
+    left: -20px;
+
+    .circles__border__img {
+      width: 50px;
+    }
+  }
+}
