@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/3D-Object-Webpage/static/css/main.2e0a6ba8.css",
+    "main.js": "/3D-Object-Webpage/static/js/main.0bee2594.js",
+    "static/media/3dShapes.png": "/3D-Object-Webpage/static/media/3dShapes.b3e26685ae07eab32288.png",
+    "static/media/imgF.svg": "/3D-Object-Webpage/static/media/imgF.0d868ea2cc81fe820e9bcffd756400cc.svg",
+    "static/media/arrowPontilhado.svg": "/3D-Object-Webpage/static/media/arrowPontilhado.42e59c1f4fbbe37962051ac36e1392f8.svg",
+    "index.html": "/3D-Object-Webpage/index.html",
+    "static/media/menuIcon.svg": "/3D-Object-Webpage/static/media/menuIcon.9dbc5a3a96ad85a57422263699b1695d.svg",
+    "main.2e0a6ba8.css.map": "/3D-Object-Webpage/static/css/main.2e0a6ba8.css.map",
+    "main.0bee2594.js.map": "/3D-Object-Webpage/static/js/main.0bee2594.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e0a6ba8.css",
+    "static/js/main.0bee2594.js"
+  ]
+}
